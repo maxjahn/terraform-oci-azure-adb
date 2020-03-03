@@ -25,6 +25,7 @@ variable "arm_image_offer" {}
 variable "arm_image_sku" {}
 variable "arm_image_version" {}
 variable "arm_expressroute_sku" {}
+variable "arm_expressroute_peering_location" {}
 variable "arm_vnet_cidr" {}
 variable "arm_client_subnet_cidr" {}
 variable "arm_gw_subnet_cidr" {}
