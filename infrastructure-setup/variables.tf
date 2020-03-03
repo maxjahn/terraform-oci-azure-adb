@@ -6,7 +6,6 @@ variable "oci_compartment_ocid" {}
 variable "oci_region" {}
 variable "ssh_public_key" {}
 variable "oci_atp_admin_password" {}
-variable "oci_test_image" {}
 variable "oci_atp_db_name" {}
 variable "oci_atp_db_displayname" {}
 variable "oci_atp_db_workload" {}
