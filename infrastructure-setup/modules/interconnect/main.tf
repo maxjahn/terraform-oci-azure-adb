@@ -171,7 +171,7 @@ resource "azurerm_express_route_circuit" "connect_erc" {
   resource_group_name   = "${var.arm_resource_group_name}"
   location              = "${var.arm_resource_group_location}"
   service_provider_name = "Oracle Cloud FastConnect"
-  peering_location      = "London"
+  peering_location      = "${var.arm_expressroute_peering_location}"
   bandwidth_in_mbps     =  1000
 
   sku {

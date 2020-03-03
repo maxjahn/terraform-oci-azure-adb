@@ -16,6 +16,7 @@ module "interconnect" {
   arm_gw_subnet_id     = "${azurerm_subnet.gateway_subnet.id}"
   arm_subnet_id     = "${azurerm_subnet.client_subnet.id}"
   arm_expressroute_sku = "${var.arm_expressroute_sku}"
+  arm_expressroute_peering_location = "${var.arm_expressroute_peering_location}"
 
   peering_net = "${var.peering_net}"
 }

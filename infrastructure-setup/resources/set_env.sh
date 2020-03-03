@@ -50,3 +50,5 @@ export TF_VAR_arm_image_version="latest"
 export TF_VAR_arm_expressroute_sku="Standard"
 #export TF_VAR_arm_expressroute_sku="UltraPerformance"
 
+export TF_VAR_arm_expressroute_peering_location="Amsterdam2"
+

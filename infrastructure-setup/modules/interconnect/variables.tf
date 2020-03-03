@@ -10,6 +10,7 @@ variable "oci_azure_provider_ocid" {}
 variable "arm_resource_group_location" {}
 variable "arm_resource_group_name" {}
 variable "arm_expressroute_sku" {}
+variable "arm_expressroute_peering_location" {}
 variable "arm_vnet_cidr" {}
 variable "arm_gw_subnet_id" {}
 variable "arm_subnet_id" {}
