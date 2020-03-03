@@ -40,7 +40,7 @@ To use a different region (e.g. Ashburn/Washington DC or Toronto) some values ne
 
 `TF_VAR_arm_region="West Europe"`
 
-`TF_VAR_arm_expressroute_peering_location"Amsterdam2"`
+`TF_VAR_arm_expressroute_peering_location="Amsterdam2"`
 
 `TF_VAR_oci_base_image= ...` base image to use for OCI VMs created. Make sure to use an image with an OCID for the region you are trying to set up the interconnect in.
 
