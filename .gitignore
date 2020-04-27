@@ -5,6 +5,8 @@
 *.tfstate
 *.tfstate.*
 
+*.oci/*
+
 # Crash log files
 crash.log
 
